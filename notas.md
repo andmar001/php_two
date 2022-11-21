@@ -18,3 +18,15 @@ Se ejecuta al menos una vez.
 
 - in_array -> Busca un valor en un array, sintaxis => 
 >> in_array( valor, array)
+
+# Foreach
+Es un ciclo que recorre un array, se puede usar para recorrer un array asociativo.
+//sintaxis basica
+>foreach( $array as $valor){
+>    //codigo a repetir
+>}
+
+// Recorrer un array asociativo
+>foreach( $array as $key => $value ) {
+>    echo $key . ' => ' . $value . PHP_EOL;
+>}
