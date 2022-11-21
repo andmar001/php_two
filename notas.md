@@ -30,3 +30,5 @@ Es un ciclo que recorre un array, se puede usar para recorrer un array asociativ
 >foreach( $array as $key => $value ) {
 >    echo $key . ' => ' . $value . PHP_EOL;
 >}
+
+# Tablero de miro 
