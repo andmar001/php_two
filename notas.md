@@ -41,3 +41,4 @@ $value = (...$numeros)
 # array spread
 
 Es lomas similar a spread operator en JS, es una forma de expandir un array en otro array.
+
