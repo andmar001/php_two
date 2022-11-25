@@ -42,3 +42,10 @@ $value = (...$numeros)
 
 Es lomas similar a spread operator en JS, es una forma de expandir un array en otro array.
 
+# operador de nave espacial
+Es un operador que compara dos valores y devuelve -1, 0 o 1 dependiendo de si el primer valor es menor, igual o mayor que el segundo.
+
+- Podemos ordenar un arreglo por medio de usort, la sintaxis es la siguiente:
+> usort( $array, function( $a, $b ) {
+usort modifica el arreglo original, no nos crea uno nuevo.
+usort recorre el arreglo y compara los valores con la función que le pasamos como segundo argumento.
