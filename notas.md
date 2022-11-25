@@ -32,3 +32,12 @@ Es un ciclo que recorre un array, se puede usar para recorrer un array asociativ
 >}
 
 # Tablero de miro 
+
+# array unpacking
+Es una forma de extraer valores de un array y asignarlos a variables.
+$numeros = [1,2,3,4,5];
+$value = (...$numeros)
+
+# array spread
+
+Es lomas similar a spread operator en JS, es una forma de expandir un array en otro array.
